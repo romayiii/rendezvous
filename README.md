@@ -28,6 +28,10 @@ HowTo:
 
 ![Rendezvous screenshot](http://s7.postimg.org/3ofu9acbv/rendezvous.png "Rendezvous screenshot")
 
+Important:
+------
+* Make sure you have the correct APIs enabled in your Google Console: JavaScript Maps API and Geocoding API.
+
 Notes:
 ------
 * You can adjust the on-screen update-rate in the GUI modifying the `updateRate` variable in `subscriber_ros_gui.js`;
