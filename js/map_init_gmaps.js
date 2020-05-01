@@ -6,7 +6,7 @@ var arrowAngle = 0;
 var arrowIcon;
 
 function initialize() {
-    var starting = new google.maps.LatLng(47.413157, 8.548645); //Zurich
+    var starting = new google.maps.LatLng(49.877102, 8.657035); //AHG
 
     var mapOptions = {
         center: starting,
