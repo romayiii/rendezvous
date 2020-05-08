@@ -19,7 +19,7 @@ var ros = new ROSLIB.Ros({
 // ----------------------
 var navSatFixListener = new ROSLIB.Topic({
     ros: ros,
-    name: '/fix', //topic name
+    name: '/gps/fix', //topic name
     messageType: 'sensor_msgs/NavSatFix' //message Type
 });
 
